@@ -1,0 +1,2 @@
+django-cas-ng==4.0.1
+Django==3.0.2
