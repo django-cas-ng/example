@@ -25,7 +25,9 @@ SECRET_KEY = '-8p9^m3_@w1(ys$9dw1%^+@)zd&am^+x_6!7z#q*3zjysc(906'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'django-cas-ng-demo.herokuapp.com'
+]
 
 
 # Application definition
