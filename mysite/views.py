@@ -1,5 +1,5 @@
 from django.http import HttpRequest, HttpResponse
-
+from . import signals
 
 def index(request: HttpRequest) -> HttpResponse:
     header = '''<!DOCTYPE html>
